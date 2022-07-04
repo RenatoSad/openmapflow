@@ -40,8 +40,8 @@ warnings.simplefilter("ignore", UserWarning)  # TorchScript throws excessive war
 # ------------ Arguments -------------------------------------
 parser = ArgumentParser()
 parser.add_argument("--model_name", type=str, default="")
-parser.add_argument("--start_month", type=str, default="February")
-parser.add_argument("--batch_size", type=int, default=64)
+parser.add_argument("--start_month", type=str, default="January")
+parser.add_argument("--batch_size", type=int, default=128)
 parser.add_argument("--upsample_minority_ratio", type=float, default=0.5)
 parser.add_argument("--lr", type=float, default=0.001)
 parser.add_argument("--epochs", type=int, default=10)
